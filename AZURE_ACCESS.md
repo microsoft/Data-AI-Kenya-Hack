@@ -14,8 +14,9 @@ Get started with an Azure free account.
 
 Enjoy 20+ popular services free for 12 months, more than 65+ services free always, and $200 credit to use in your first 30 days.
 
-Link:  [get Azure for free](https://azure.microsoft.com/en-us/free/)
+Link: [get Azure for free](https://azure.microsoft.com/en-us/free/)
 
-## Request additional vouchers
 
-You can request additional vouchers by emailing: ainsi-hack-together@service.microsoft.com
+## Unable to Activate
+
+If you are unable to activate your get a voucher with either of the methods above, please reach out to our support team for assistance, [contact us](mailto:ainsi-hack-together@service.microsoft.com)
