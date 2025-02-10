@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Josh Ndemenge:mailto:jndemenge@microsoft.com
+DESCRIPTION:Get more value from your data with Microsoft Fabric—an AI-pow
+ ered analytics platform that unifies your data and services. Microsoft Fab
+ ric offers an all-in-one analytics solution for enterprises\, covering eve
+ rything from data movement to data science\, real-time intelligence\, and 
+ business intelligence. With a comprehensive suite of services including da
+ ta lake\, data engineering\, and data integration\, everything is streamli
+ ned in one place.\n\nWhether you’re new to Fabric or looking to enhance 
+ your data strategy\, this session will provide you with the practical know
+ ledge to maximize the value of your data.\n\nJoin Live at: https://www.you
+ tube.com/watch?v=Q3zNYvoRX74\n\n\n\n
+UID:040000008200E00074C5B7101A82E0080000000072AA1342CA7BDB01000000000000000
+ 010000000892B14A00E6B674692E661575F9ED165
+SUMMARY:A tidy introduction to Microsoft Fabric
+DTSTART:20250320T160000Z
+DTEND:20250320T170000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250210T144417Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+LOCATION:
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

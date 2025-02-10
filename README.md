@@ -18,19 +18,19 @@ Follow the steps below for a successful hackathon experience:
 
 
 ## 00 - Prerequisites
-Register for The Microsoft Data + AI Kenya Hack event at [https://aka.ms/data-ai-hack-kenya/register](https://aka.ms/data-ai-hack-kenya/register)
+Register for The Microsoft Data + AI Kenya Hack event at [https://aka.ms/data-ai-hack-kenya/register](https://aka.ms/data-ai-hack-kenya/register). Before registering, please make sure to read the contest rules [here](/CONTEST_RULES.md).
 
 
 You will need to have access to a **Microsoft Fabric Capacity**. If you do not have one you can obtains a *Microsoft Fabric trial license* by following [these instructions](https://aka.ms/upgrade-to-fabric).
 
-**Introduce yourself**, we'd like to get to know you!  🥳 Join the [Hack Together discord channel](https://aka.ms/aifundamentalstraining-discord) to ask questions, share ideas, and get feedback from Microsoft experts and other participants. 
+**Introduce yourself**, we'd like to get to know you!  🥳 Join the [Hack Together discord channel](https://discord.gg/hTmW9C4t) to ask questions, share ideas, and get feedback from Microsoft experts and other participants. 
 
 **Planning on hacking with Azure Open AI?** We're able to offer no-cost, limited access to Azure OpenAI - no Azure account needed. See the instructions on how to get access [here](/AI_ACCESS.md).
 
 **Planning on hacking leveraging other Azure Resources?** See instructions on how get activate a free Azure Subscription or how rto request an Azure Pass [here](/AZURE_ACCESS.md).
 
-## 01 - Start hacking on February 11th
-**Either team up (max 3 team members)** or fly solo to join the hacking! Make sure to [register for the Hack Together](https://aka.ms/data-ai-hack-kenya/register) before starting to build your project.
+## 01 - Start hacking on March 12th
+**Team with 3 team members** to join the hacking! Make sure to [register for the Hack Together](https://aka.ms/data-ai-hack-kenya/register) before starting to build your project.
 
 ## 02 - Join the live sessions for learning and inspiration
 We'll be hosting live sessions to help you get started with Microsoft Fabric and Azure AI and to provide you with inspiration for your hack. Join the live sessions to learn from Microsoft experts and ask questions.
@@ -38,12 +38,15 @@ We'll be hosting live sessions to help you get started with Microsoft Fabric and
 
 | Date       | Live Stream Topic                          | Live Link                                      | Add to Calendar Invite                       |
 |------------|--------------------------------------------|------------------------------------------------|---------------------------------------------|
-| February 12| Introduction to Microsoft Fabric           | [Join Live](https://aka.ms/fabric-intro-live)  | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1) |
-| February 15| Getting Started with Azure AI              | [Join Live](https://aka.ms/azure-ai-live)      | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1)  |
-| February 20| Building AI Solutions with Microsoft Fabric| [Join Live](https://aka.ms/build-ai-live)      | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1)   |
-| February 25| Advanced Techniques in Azure AI            | [Join Live](https://aka.ms/advanced-ai-live)   | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1) |
-| March 1    | Final Q&A and Project Showcase             | [Join Live](https://aka.ms/project-showcase)   | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1) |
+| March 18   | Ready, Set, Hack: and do more with Azure AI and Microsoft Fabric              | [Join Live](https://developer.microsoft.com/en-us/reactor/events/24808/)  | [![Calendar Invite](https://shorturl.at/8vei3)](/Assets/livestream_1.ics) |
+| March 20   | A tidy introduction to Microsoft Fabric                                       | [Join Live](https://developer.microsoft.com/en-us/reactor/events/24809/)  | [![Calendar Invite](https://shorturl.at/8vei3)](/Assets/livestream_2.ics) |
+| March 25   | Building Scalable Data Solutions with Microsoft Fabric's Data Warehouse       | [Join Live](https://developer.microsoft.com/en-us/reactor/events/24810/)  | [![Calendar Invite](https://shorturl.at/8vei3)](/Assets/livestream_3.ics) |
+| March 27   | Building high scale RAG Applications with the Eventhouse in Microsoft Fabric  | [Join Live](https://developer.microsoft.com/en-us/reactor/events/24811/)  | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1) |
+| April 1    | Building AI Agents using Azure AI Agent Service                               | [Join Live](https://developer.microsoft.com/en-us/reactor/events/24812/)  | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1) |
+| April 3rd  | Wrap up - How to Submit your hack & Next steps                                | [Join Live](https://developer.microsoft.com/en-us/reactor/events/24813/)  | [![Calendar Invite](https://shorturl.at/8vei3)](https://aka.ms/livestream1) |
 
+## 03 - Submit your project until April 8th, 11:59 PM EAT
+Submit your project here when it's ready: 🚀 [Project Submission](https://github.com/microsoft/Data-AI-Kenya-Hack/issues/new?assignees=&labels=&projects=&template=project.yml&title=Project%3A+%3Cshort+description%3E)
 
 
 ## Contributing
