@@ -21,7 +21,7 @@ Register for The Microsoft Data + AI Kenya Hack event at [https://aka.ms/data-ai
 
 You will need to have access to a **Microsoft Fabric Capacity**. If you do not have one you can obtains a *Microsoft Fabric trial license* by following [these instructions](https://aka.ms/upgrade-to-fabric).
 
-**Introduce yourself**, we'd like to get to know you!  🥳 Join the [Hack Together discord channel](https://discord.gg/hTmW9C4t) to ask questions, share ideas, and get feedback from Microsoft experts and other participants. 
+**Introduce yourself**, we'd like to get to know you!  🥳 Join the [Hack Together discord channel](https://discord.gg/GYKJDeEH) to ask questions, share ideas, and get feedback from Microsoft experts and other participants. 
 
 **Planning on hacking with Azure Open AI?** We're able to offer no-cost, limited access to Azure OpenAI - no Azure account needed. See the instructions on how to get access [here](/AI_ACCESS.md).
 
