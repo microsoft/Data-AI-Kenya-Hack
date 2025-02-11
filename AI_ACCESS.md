@@ -41,7 +41,7 @@ To gain access:
 
 ### Using the Endpoint and Key
 
-To get hacking with AI this event you'll need both the endpoint and key to put into your own code creations!
+To get hacking with AI in this event you'll need both the endpoint and key to put into your own code creations!
 
 > ### Key Event Info
 >
