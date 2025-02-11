@@ -37,3 +37,13 @@ body:
       description: Comma-separated list of GitHub users who worked on this project
     validations:
       required: true
+  - type: dropdown
+    id: registered
+    attributes:
+      label: Have you registered?
+      description: Only teams that have registered will be considered. Registration is by filling out the form at [aka.ms/data-ai-hack-kenya](https://aka.ms/data-ai-hack-kenya)
+      options:
+        - Yes
+        - No
+    validations:
+      required: true

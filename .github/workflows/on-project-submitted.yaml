@@ -5,11 +5,6 @@ on:
     types:
     - opened
     - edited
-  # workflow_dispatch:
-  #   inputs:
-  #     issue-number:
-  #       description: 'Issue number'
-  #       required: true
 
 permissions:
   contents: read
@@ -24,14 +19,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # - name: Check event payload
-    #   shell: pwsh
-    #   run: |
-    #     $eventPayload = ${{ toJson(github) }}
     - name: sanitize input
+      run: echo "Sanitizing input"
       env:
-          TITLE: ${{ github.event.comment.title }}
-          BODY: ${{ github.event.comment.body }}
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+          
     - name: Check issue details
       id: issue
       shell: bash
@@ -50,7 +43,7 @@ jobs:
           echo "githubId=$githubId" >> $GITHUB_OUTPUT
           echo "assignee=$assignee" >> $GITHUB_OUTPUT
 
-    - name: Vaildate issue - project submission
+    - name: Validate issue - project submission
       id: project
       shell: pwsh
       run: |
@@ -62,7 +55,7 @@ jobs:
 
         echo "isValid=$isValid" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
 
-        $tz = [TimeZoneInfo]::FindSystemTimeZoneById("US/Pacific")
+        $tz = [TimeZoneInfo]::FindSystemTimeZoneById("E. Africa Standard Time")
         $dateSubmitted = [DateTimeOffset]::Parse("${{ steps.issue.outputs.createdAt }}")
         $offset = $tz.GetUtcOffset($dateSubmitted)
 
@@ -128,7 +121,7 @@ jobs:
 
         echo "videoUrl=$projectVideoUrl" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
 
-    - name: Vaildate project details
+    - name: Validate project details
       if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false'
       id: validation
       shell: pwsh
