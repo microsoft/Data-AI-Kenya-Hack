@@ -41,7 +41,7 @@ body:
     id: registered
     attributes:
       label: Registration status.
-      description: By submitting this project, you confirm that your team is registered for the hackathon. Only registered teams will be considered. To register, complete the form at [aka.ms/data-ai-hack-kenya](https://aka.ms/data-ai-hack-kenya)
+      description: By submitting this project, you confirm that your team is registered for the hackathon. Only registered teams will be considered. To register, complete the form at [aka.ms/data-ai-hack-kenya/register](https://aka.ms/data-ai-hack-kenya/register)
       options:
         - label: I have completed registration
           required: true
