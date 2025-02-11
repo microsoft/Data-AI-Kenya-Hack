@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Josh Ndemenge:mailto:jndemenge@microsoft.com
+DESCRIPTION:Join this session to learn how to build scalable Retrieval Augm
+ ented Generation (RAG) applications using your data and Evenhouse within M
+ icrosoft Fabric. You’ll discover how to create and manage vector databas
+ es with Azure OpenAI and Microsoft Fabric\, enabling powerful and intellig
+ ent data-driven solutions. Through practical examples and demonstrations\,
+  we’ll show you how to leverage these tools to enhance your applications
+ \, improve data retrieval\, and drive innovation.\n\nWhether you’re a de
+ veloper\, data scientist\, or IT professional\, this session will provide 
+ you with the skills and insights needed to implement scalabe RAG applicati
+ ons in your projects.\n\nJoin live at : https://www.youtube.com/watch?v=jj
+ BmwoAHiDk\n\n\n\n\n
+UID:040000008200E00074C5B7101A82E008000000007AFD3E80E77BDB01000000000000000
+ 0100000005113D47478C297469858F1E50F74DAC0
+SUMMARY:Building high scale RAG Applications with the Eventhouse in Microso
+ ft Fabric
+DTSTART:20250327T160000Z
+DTEND:20250327T170000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250210T181337Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+LOCATION:
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

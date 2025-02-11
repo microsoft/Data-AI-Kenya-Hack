@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Josh Ndemenge:mailto:jndemenge@microsoft.com
+DESCRIPTION:Join this session to learn about the new Azure AI Agent Service
+  and how it can improve your applications. We’ll leverage Microsoft Fabr
+ ic and walk you through its features like real-time data processing and se
+ cure data management. To show you what it can do\, we’ll demo a personal
+  finance app that tracks income and expenses\, updates instantly\, and gen
+ erates useful reports using a SQL database on Microsoft Fabric. Whether yo
+ u’re looking to add AI capabilities to your projects or just want to exp
+ lore the latest tools\, this session will give you the insights and practi
+ cal knowledge to make the most of Azure AI Agent Service.\n\nJoin live at:
+  https://www.youtube.com/watch?v=DKPiYAWaay8\n
+UID:040000008200E00074C5B7101A82E00800000000E72F741BE87BDB01000000000000000
+ 0100000008F46EC92C66FBD43AC4F6BF340A3FAA6
+SUMMARY:Building AI Agents using Azure AI Agent Service
+DTSTART:20250401T160000Z
+DTEND:20250401T170000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250210T181757Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+LOCATION:
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
