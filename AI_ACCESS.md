@@ -20,7 +20,7 @@ To gain access:
 
    ![Screenshot of registration page with arrow pointing to top right corner.](Images/proxy_login.png "Login with GitHub")
 
-1. Once logged in, follow the steps outlined in the **Generate API Key** section to get your key.**Keep your key handy, for the following steps and for your hacking!**
+1. Once logged in, follow the steps outlined in the **Generate API Key** section to get your key. **Keep your key handy for the following steps and for your hacking!**
 
 1. **Go to the AI Proxy Playground** at [https://aka.ms/data-ai-hack-kenya/playground](https://aka.ms/data-ai-hack-kenya/playground)
 
@@ -29,7 +29,7 @@ To gain access:
 
 1. **You should now see the event name** "Hack Together: The Microsoft Data + AI Kenya Hack" in the top-right corner!
 
-1. **You're ready to test your set up**, first you need to **choose a model** in the pannel on the right-hand side. GTP models are used for running/testing in the chat, choose one to get started.
+1. **You're ready to test your set up**, first you need to **choose a model** in the pannel on the right-hand side. GPT models are used for running/testing in the chat, choose one to get started.
 
 1. You're ready to go, write a message in the **Chat Session**. You should receive a message back in a few seconds!
 
@@ -60,11 +60,11 @@ _You have up to 2000 requests per model per day._
 
 | Model           | Model Name             | Docs                                                                   | Example (Python)\*                                                                     | Example (.NET)\*\*                                                                   |
 | --------------- | ---------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| GTP-3.5         | gtp-35-turbo           | [GPT-3.5 Docs](https://aka.ms/fabric-hack24-python-docs-gtp35)         | [Azure OpenAI Chat - Python ](https://aka.ms/fabric-hack24-python-eg-chat)             | [Azure OpenAI Chat - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-chat)             |
-| GTP-3.5 (Turbo) | gtp-35-turbo-16k       | [GTP-3.5 Docs](https://aka.ms/fabric-hack24-python-docs-gtp35)         | As above, change model name                                                            | As above, change model name                                                          |
-| GTP-4           | gtp-4                  | [GTP-4 Docs](https://aka.ms/fabric-hack24-python-docs-gtp4)            | As above, change model name                                                            | As above, change model name                                                          |
+| GPT-4o         | gtp-4o           | [GPT-4o Docs](https://aka.ms/fabric-hack24-python-docs-gtp4)         | [Azure OpenAI Chat - Python ](https://aka.ms/fabric-hack24-python-eg-chat)             | [Azure OpenAI Chat - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-chat)             |
+| GPT-4o-mini | gpt-4o-mini      | [GPT-4o-mini Docs](https://aka.ms/fabric-hack24-python-docs-gtp35)         | As above, change model name                                                            | As above, change model name                                                          |
 | Embeddings      | text-embedding-ada-002 | [Embeddings Docs](https://aka.ms/fabric-hack24-python-docs-embeddings) | [Azure OpenAI Embeddings - Python ](https://aka.ms/fabric-hack24-python-eg-embeddings) | [Azure OpenAI Embeddings - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-embeddings) |
-| DALL-E 4        | dall-e-3               | [DALL-E Docs](https://aka.ms/fabric-hack24-python-docs-dalle)          | [Azure OpenAI DALL-E - Python ](https://aka.ms/fabric-hack24-python-eg-dalle)          | [Azure OpenAI DALL-E - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-dalle)          |
+| Whisper       | whisper             | [Whisper Docs](https://aka.ms/fabric-hack24-python-docs-dalle)          |          |           |
+| DALL-E 3        | dall-e-3               | [DALL-E Docs](https://aka.ms/fabric-hack24-python-docs-dalle)          | [Azure OpenAI DALL-E - Python ](https://aka.ms/fabric-hack24-python-eg-dalle)          | [Azure OpenAI DALL-E - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-dalle)          |
 
 _The models we are using are all hosted in the Sweden Central region. You won't need that information for your hacking purposes._
 
@@ -72,7 +72,9 @@ _The models we are using are all hosted in the Sweden Central region. You won't 
 
 For more guidance on using Python with Azure OpenAI you can check out the [OpenAI Python API library](https://aka.ms/fabric-hack24-python) on PyPi for the docs, how to set up your environment variables, and for some simple examples.
 
-You'll need to add two environment variables to run the examples: ENDPOINT*URL and API_KEY. \_The PyPi docs give a good example on how to set up a .env file to store your keys and endpoints and to use dot_env the library to access your keys and endpoints (dot_env is used in the Python examples listed in the table).*
+You'll need to add two environment variables to run the examples: ENDPOINT*URL and API_KEY. 
+
+_The PyPi docs give a good example on how to set up a .env file to store your keys and endpoints and to use dot_env the library to access your keys and endpoints (dot_env is used in the Python examples listed in the table)._
 
 #### More .NET Info
 
