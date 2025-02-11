@@ -37,13 +37,11 @@ body:
       description: Comma-separated list of GitHub users who worked on this project
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: registered
     attributes:
-      label: Have you registered?
-      description: Only teams that have registered will be considered. Registration is by filling out the form at [aka.ms/data-ai-hack-kenya](https://aka.ms/data-ai-hack-kenya)
+      label: Registration status.
+      description: By submitting this project, you confirm that your team is registered for the hackathon. Only registered teams will be considered. To register, complete the form at [aka.ms/data-ai-hack-kenya](https://aka.ms/data-ai-hack-kenya)
       options:
-        - Yes
-        - No
-    validations:
-      required: true
+        - label: I have completed registration
+          required: true
