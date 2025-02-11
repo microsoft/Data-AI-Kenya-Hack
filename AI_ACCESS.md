@@ -68,13 +68,13 @@ _You have up to 2000 requests per model per day._
 
 _The models we are using are all hosted in the Sweden Central region. You won't need that information for your hacking purposes._
 
-#### More Python Info\*
+#### More Python Info
 
 For more guidance on using Python with Azure OpenAI you can check out the [OpenAI Python API library](https://aka.ms/fabric-hack24-python) on PyPi for the docs, how to set up your environment variables, and for some simple examples.
 
 You'll need to add two environment variables to run the examples: ENDPOINT*URL and API_KEY. \_The PyPi docs give a good example on how to set up a .env file to store your keys and endpoints and to use dot_env the library to access your keys and endpoints (dot_env is used in the Python examples listed in the table).*
 
-#### More .NET Info\*\*
+#### More .NET Info
 
 For more guidance on using .NET with Azure OpenAI, check out the [Azure OpenAI client Library for .NET](https://aka.ms/fabric-hack24-dotnet).
 
