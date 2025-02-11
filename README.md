@@ -91,7 +91,10 @@ Check out past winners of the HackTogether: The Microsoft Fabric Global AI Hack 
 
 ### Azure AI and Generative AI
 
-// to add resources
+* [Introduction to Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio)
+* [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners/tree/main?WT.mc_id=academic-105485-koreyst)
+* [Azure AI Agent Service](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/introducing-azure-ai-agent-service/4298357)
+* [Multi-model orchestration](https://github.com/Azure-Samples/contoso-creative-writer)
 
 ## 05 - Judging and Prizes 🏆
 Projects will be evaluated by a panel of judges, including Microsoft executives, product managers, and developer advocates. Hack Together winners will be selected per the following judging criteria:
