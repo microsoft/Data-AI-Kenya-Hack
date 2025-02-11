@@ -18,14 +18,14 @@ To gain access:
 
 1. **Login with GitHub** using the button in the top-right corner
 
-   ![Screenshot of registration page with arrow pointing to top right corner.](images/proxy_login.png "Login with GitHub")
+   ![Screenshot of registration page with arrow pointing to top right corner.](Images/proxy_login.png "Login with GitHub")
 
 1. Once logged in, follow the steps outlined in the **Generate API Key** section to get your key.**Keep your key handy, for the following steps and for your hacking!**
 
 1. **Go to the AI Proxy Playground** at [https://aka.ms/data-ai-hack-kenya/playground](https://aka.ms/data-ai-hack-kenya/playground)
 
 1. **Enter your API key** in the text box in the top-right corner and click **_Authorize_**
-   ![Screenshot of proxy playground page with arrow pointing to API text entry field and authorize button.](images/proxy_authorize.png "Enter your key and click Authorize")
+   ![Screenshot of proxy playground page with arrow pointing to API text entry field and authorize button.](Images/proxy_authorize.png "Enter your key and click Authorize")
 
 1. **You should now see the event name** "Hack Together: The Microsoft Data + AI Kenya Hack" in the top-right corner!
 
