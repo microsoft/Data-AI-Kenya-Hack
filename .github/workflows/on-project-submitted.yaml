@@ -23,7 +23,9 @@ jobs:
       run: |
         echo "Sanitizing input"
         echo "TITLE=${{ github.event.issue.title }}" >> $GITHUB_ENV
-        echo "BODY=${{ github.event.issue.body }}" >> $GITHUB_ENV
+        echo "BODY<<EOF" >> $GITHUB_ENV
+        echo "${{ github.event.issue.body }}" >> $GITHUB_ENV
+        echo "EOF" >> $GITHUB_ENV
           
     - name: Check issue details
       id: issue
