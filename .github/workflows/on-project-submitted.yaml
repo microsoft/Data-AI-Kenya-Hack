@@ -114,9 +114,11 @@ jobs:
       id: projectDetails
       shell: pwsh
       run: |
-        $body = $(@"
-        ${{ steps.issue.outputs.body }}
-        "@).Replace("`"", "\`"")
+        $pattern = '### Project Repository URL(?<url>[\s\S]+?)### Project video'
+        if ($body -match $pattern) {
+          $projectRepositoryUrl = $Matches.url.Replace("`r", "").Replace("`n", "")
+          # ...
+        }
 
         $body -match '### Project Repository URL(?<url>.+)### Project video'
         $projectRepositoryUrl = $Matches.url.Replace("\r", "").Replace("\n", "")
