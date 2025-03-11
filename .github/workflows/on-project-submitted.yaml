@@ -20,10 +20,10 @@ jobs:
 
     steps:
     - name: sanitize input
-      run: echo "Sanitizing input"
-      env:
-          TITLE: ${{ github.event.issue.title }}
-          BODY: ${{ github.event.issue.body }}
+      run: |
+        echo "Sanitizing input"
+        echo "TITLE=${{ github.event.issue.title }}" >> $GITHUB_ENV
+        echo "BODY=${{ github.event.issue.body }}" >> $GITHUB_ENV
           
     - name: Check issue details
       id: issue
