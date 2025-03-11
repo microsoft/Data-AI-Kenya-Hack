@@ -42,10 +42,13 @@ jobs:
 
           echo "issueNumber=$issueNumber" >> $GITHUB_OUTPUT
           echo "title=$title" >> $GITHUB_OUTPUT
-          echo "body=$body" >> $GITHUB_OUTPUT
           echo "createdAt=$createdAt" >> $GITHUB_OUTPUT
           echo "githubId=$githubId" >> $GITHUB_OUTPUT
           echo "assignee=$assignee" >> $GITHUB_OUTPUT
+
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          echo "$body" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
     - name: Validate issue - project submission
       id: project
