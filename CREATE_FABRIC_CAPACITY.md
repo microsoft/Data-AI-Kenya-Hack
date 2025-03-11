@@ -29,11 +29,11 @@ Before using **Microsoft Fabric**, you need an **Office 365 trial account** beca
 
 >**Note:**  This trial lasts **one month**, so cancel before it expires to **avoid charges**.  
 
-![Office 365 Trial](/images/paymentmethod-1024x709.png)
+![Office 365 Trial](/Images/paymentmethod-1024x709.png)
 
 Upon activation, you can disable the recurring billing manually by logging into [https://admin.microsoft.com](https://admin.microsoft.com/ ) with the newly created organizational account, then navigate to Billing => Your Products and select the 3 dots next to the newly created Office 365 subscription.  From there you can turn off recurring billing as shown:
 
-![Disable Recurring Billing](/images/disablerecurring-1024x604.png)
+![Disable Recurring Billing](/Images/disablerecurring-1024x604.png)
 
 ## **Part 2: Sign up for Microsoft Fabric**  
 Now that you have a Microsoft 365 tenant, you need to sign up for **Microsoft Fabric**. 
@@ -77,7 +77,7 @@ For this guide, we will use a **free Azure trial** to set up a **Fabric Capacity
 ## Create a new Workspace in Microsoft Fabric
 1. From the [Fabric Home Page](http://app.fabric.microsoft.com/), select Workspaces > + New Workspace and teh create workspace pane opens. 
 
-    ![Create Workspace](/images/fabric-new-workspaces.png)
+    ![Create Workspace](/Images/fabric-new-workspaces.png)
 
 1. Fillout the following details:
     - **Name** - provide a unique name for the workspace *(mandatory)*
@@ -86,7 +86,7 @@ For this guide, we will use a **free Azure trial** to set up a **Fabric Capacity
 1. Expand **Advanced** to find some of the advanced settings options. Under **License Mode** select **Fabric Capacity**. 
 1. Select the capacity you created  in the Azure portal under **Capacity**
 
-    ![License Mode](/images/fabric-license-mode.png)
+    ![License Mode](/Images/fabric-license-mode.png)
 
 >**Note:** Your capacity need to be running in order to be able to select it. If you have paused your capacity, you will need to resume it before you can select it.
 
@@ -100,7 +100,7 @@ For this guide, we will use a **free Azure trial** to set up a **Fabric Capacity
 2. Open your **Fabric Capacity resource**.  
 3. Click **"Pause"**.  
 
-    ![Pause Fabric Capacity](/images/pause-fabric-capacity.png)
+    ![Pause Fabric Capacity](/Images/pause-fabric-capacity.png)
 
 
 ### **2. Delete Fabric Capacity (To Stop Charges)**  

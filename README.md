@@ -20,7 +20,7 @@ Follow the steps below for a successful hackathon experience:
 
 Register for The Microsoft Data + AI Kenya Hack event at [https://aka.ms/data-ai-hack-kenya/register](https://aka.ms/data-ai-hack-kenya/register). Before registering, please make sure to read the contest rules [here](/CONTEST_RULES.md).
 
-You will need to have access to a **Microsoft Fabric Capacity**. If you do not have one you can obtains a _Microsoft Fabric trial license_ by following [these instructions](/CREATE_FABRIC_CAPACITY.md).
+You will need to have access to a **Microsoft Fabric Capacity**. If you do not have one you can create a Microsoft Fabric capacity by following [these instructions](/CREATE_FABRIC_CAPACITY.md).
 
 **Introduce yourself**, we'd like to get to know you! 🥳 Join the [Hack Together discord channel](https://aka.ms/data-ai-hack-kenya/discord) to ask questions, share ideas, and get feedback from Microsoft experts and other participants.
 
