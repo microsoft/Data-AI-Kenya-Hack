@@ -67,7 +67,7 @@ jobs:
         $offset = $tz.GetUtcOffset($dateSubmitted)
 
         $dateSubmitted = $dateSubmitted.ToOffset($offset)
-        $dateDue = $([DateTimeOffset]::Parse("${{ vars.SUBMISSION_DUE_DATE }}"))
+        $dateDue = $([DateTimeOffset]::Parse("${{ secrets.SUBMISSION_DUE_DATE }}"))
         $isOverdue = "$($dateSubmitted -gt $dateDue)".ToLowerInvariant()
 
         $dateSubmittedValue = $dateSubmitted.ToString("yyyy-MM-ddTHH:mm:ss.fffzzz")
