@@ -20,7 +20,7 @@ Follow the steps below for a successful hackathon experience:
 
 Register for The Microsoft Data + AI Kenya Hack event at [https://aka.ms/data-ai-hack-kenya/register](https://aka.ms/data-ai-hack-kenya/register). Before registering, please make sure to read the contest rules [here](/CONTEST_RULES.md).
 
-You will need to have access to a **Microsoft Fabric Capacity**. If you do not have one you can obtains a _Microsoft Fabric trial license_ by following [these instructions](https://aka.ms/upgrade-to-fabric).
+You will need to have access to a **Microsoft Fabric Capacity**. If you do not have one you can obtains a _Microsoft Fabric trial license_ by following [these instructions](/CREATE_FABRIC_CAPACITY.md).
 
 **Introduce yourself**, we'd like to get to know you! 🥳 Join the [Hack Together discord channel](https://aka.ms/data-ai-hack-kenya/discord) to ask questions, share ideas, and get feedback from Microsoft experts and other participants.
 
@@ -60,7 +60,7 @@ This solution is a great example because it:
 - Solves a real-world problem in a novel way using Microsoft Fabric and Azure AI
 - Is shared in a public GitHub repository
 - Has a clear documentation and instructions on how to reproduce the solution
-- Hasa a clear [video](https://youtu.be/vvfRFNgo-PI?si=12vrXbARz2a_fbyl) demonstration of the solution
+- Has a clear [video](https://youtu.be/vvfRFNgo-PI?si=12vrXbARz2a_fbyl) demonstration of the solution
 
 Check out past winners of the HackTogether: The Microsoft Fabric Global AI Hack for more inspiration [here](https://blog.fabric.microsoft.com/en-GB/blog/announcing-the-winners-of-hacktogether-the-microsoft-fabric-global-ai-hack) and [here](https://blog.fabric.microsoft.com/en-us/blog/announcing-the-winners-of-the-microsoft-fabric-and-ai-learning-hackathon?ft=All) for the winners of the Microsoft Fabric and AI Learning Hackathon.
 
