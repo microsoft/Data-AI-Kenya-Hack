@@ -24,7 +24,7 @@ You will need to have access to a **Microsoft Fabric Capacity**. If you do not h
 
 **Introduce yourself**, we'd like to get to know you! 🥳 Join the [Hack Together discord channel](https://aka.ms/data-ai-hack-kenya/discord) to ask questions, share ideas, and get feedback from Microsoft experts and other participants.
 
-**Planning on hacking with Azure Open AI?** We're able to offer no-cost, limited access to Azure OpenAI - no Azure account needed. See the instructions on how to get access [here](/AI_ACCESS.md).
+**Planning on hacking with Azure OpenAI?** We're able to offer no-cost, limited access to Azure OpenAI - no Azure account needed. See the instructions on how to get access [here](/AI_ACCESS.md).
 
 **Planning on hacking leveraging other Azure Resources?** See instructions on how get activate a free Azure Subscription [here](/AZURE_ACCESS.md).
 
