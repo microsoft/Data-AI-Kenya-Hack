@@ -14,7 +14,7 @@ It is recommended for participants to follow the Hack Together Roadmap for a suc
 
 Follow the steps below for a successful hackathon experience:
 
-![Hack Together Roadmap](/Assets/hack-together-roadmap.png)
+![Hack Together Roadmap](/Assets/Microsoft%20Data%20and%20AI%20Hackathon%20(Timeline%20Change).png)
 
 ## 00 - Prerequisites
 
@@ -99,6 +99,7 @@ Check out past winners of the HackTogether: The Microsoft Fabric Global AI Hack 
 - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners/tree/main?WT.mc_id=academic-105485-koreyst)
 - [Azure AI Agent Service](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/introducing-azure-ai-agent-service/4298357)
 - [Multi-model orchestration](https://github.com/Azure-Samples/contoso-creative-writer)
+- [10-Lessons on AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
 
 ## 05 - Judging and Prizes 🏆
 
