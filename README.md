@@ -14,7 +14,7 @@ It is recommended for participants to follow the Hack Together Roadmap for a suc
 
 Follow the steps below for a successful hackathon experience:
 
-![Hack Together Roadmap](/Assets/Microsoft%20Data%20and%20AI%20Hackathon%20(Timeline%20Change).png)
+![Hack Together Roadmap](/Assets/timeline_change.png)
 
 ## 00 - Prerequisites
 
