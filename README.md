@@ -14,7 +14,7 @@ It is recommended for participants to follow the Hack Together Roadmap for a suc
 
 Follow the steps below for a successful hackathon experience:
 
-![Hack Together Roadmap](/Assets/hack-together-roadmap.png)
+![Hack Together Roadmap](/Assets/timeline_change.png)
 
 ## 00 - Prerequisites
 
@@ -24,7 +24,7 @@ You will need to have access to a **Microsoft Fabric Capacity**. If you do not h
 
 **Introduce yourself**, we'd like to get to know you! 🥳 Join the [Hack Together discord channel](https://aka.ms/data-ai-hack-kenya/discord) to ask questions, share ideas, and get feedback from Microsoft experts and other participants.
 
-**Planning on hacking with Azure Open AI?** We're able to offer no-cost, limited access to Azure OpenAI - no Azure account needed. See the instructions on how to get access [here](/AI_ACCESS.md).
+**Planning on hacking with Azure OpenAI?** We're able to offer no-cost, limited access to Azure OpenAI - no Azure account needed. See the instructions on how to get access [here](/AI_ACCESS.md).
 
 **Planning on hacking leveraging other Azure Resources?** See instructions on how get activate a free Azure Subscription [here](/AZURE_ACCESS.md).
 
@@ -99,6 +99,7 @@ Check out past winners of the HackTogether: The Microsoft Fabric Global AI Hack 
 - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners/tree/main?WT.mc_id=academic-105485-koreyst)
 - [Azure AI Agent Service](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/introducing-azure-ai-agent-service/4298357)
 - [Multi-model orchestration](https://github.com/Azure-Samples/contoso-creative-writer)
+- [10-Lessons on AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
 
 ## 05 - Judging and Prizes 🏆
 
