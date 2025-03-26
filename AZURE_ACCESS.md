@@ -16,7 +16,6 @@ Enjoy 20+ popular services free for 12 months, more than 65+ services free alway
 
 Link: [get Azure for free](https://azure.microsoft.com/en-us/free/)
 
-
 ## Unable to Activate
 
 If you are unable to activate your get a voucher with either of the methods above, please reach out to our support team for assistance, [contact us](mailto:ainsi-hack-together@service.microsoft.com)

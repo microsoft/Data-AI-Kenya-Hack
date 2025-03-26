@@ -1,4 +1,4 @@
-# Access Azure OpenAI for Hack Together, for Free!
+# Access Azure OpenAI for Hack Together, for Free
 
 **We've made it quick and easy to get access to Azure OpenAI models for the duration of Hack Together!**
 
@@ -45,7 +45,7 @@ To get hacking with AI in this event you'll need both the endpoint and key to pu
 
 > ### Key Event Info
 >
-> **Endpoint**: https://mango-bush-0a9e12903.5.azurestaticapps.net/api/v1
+> **Endpoint**: <https://mango-bush-0a9e12903.5.azurestaticapps.net/api/v1>
 >
 > **Key:** Use the key you got in step 3 above.
 >
@@ -60,11 +60,11 @@ _You have up to 2000 requests per model per day._
 
 | Model           | Model Name             | Docs                                                                   | Example (Python)\*                                                                     | Example (.NET)\*\*                                                                   |
 | --------------- | ---------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| GPT-4o         | gtp-4o           | [GPT-4o Docs](https://aka.ms/fabric-hack24-python-docs-gtp4)         | [Azure OpenAI Chat - Python ](https://aka.ms/fabric-hack24-python-eg-chat)             | [Azure OpenAI Chat - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-chat)             |
+| GPT-4o         | gtp-4o           | [GPT-4o Docs](https://aka.ms/fabric-hack24-python-docs-gtp4)         | [Azure OpenAI Chat - Python](https://aka.ms/fabric-hack24-python-eg-chat)             | [Azure OpenAI Chat - .NET](https://aka.ms/fabric-hack24-dotnet-eg-chat)             |
 | GPT-4o-mini | gpt-4o-mini      | [GPT-4o-mini Docs](https://aka.ms/fabric-hack24-python-docs-gtp35)         | As above, change model name                                                            | As above, change model name                                                          |
-| Embeddings      | text-embedding-ada-002 | [Embeddings Docs](https://aka.ms/fabric-hack24-python-docs-embeddings) | [Azure OpenAI Embeddings - Python ](https://aka.ms/fabric-hack24-python-eg-embeddings) | [Azure OpenAI Embeddings - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-embeddings) |
+| Embeddings      | text-embedding-ada-002 | [Embeddings Docs](https://aka.ms/fabric-hack24-python-docs-embeddings) | [Azure OpenAI Embeddings - Python](https://aka.ms/fabric-hack24-python-eg-embeddings) | [Azure OpenAI Embeddings - .NET](https://aka.ms/fabric-hack24-dotnet-eg-embeddings) |
 | Whisper       | whisper             | [Whisper Docs](https://aka.ms/fabric-hack24-python-docs-dalle)          |          |           |
-| DALL-E 3        | dall-e-3               | [DALL-E Docs](https://aka.ms/fabric-hack24-python-docs-dalle)          | [Azure OpenAI DALL-E - Python ](https://aka.ms/fabric-hack24-python-eg-dalle)          | [Azure OpenAI DALL-E - .NET ](https://aka.ms/fabric-hack24-dotnet-eg-dalle)          |
+| DALL-E 3        | dall-e-3               | [DALL-E Docs](https://aka.ms/fabric-hack24-python-docs-dalle)          | [Azure OpenAI DALL-E - Python](https://aka.ms/fabric-hack24-python-eg-dalle)          | [Azure OpenAI DALL-E - .NET](https://aka.ms/fabric-hack24-dotnet-eg-dalle)          |
 
 _The models we are using are all hosted in the Sweden Central region. You won't need that information for your hacking purposes._
 
@@ -72,7 +72,7 @@ _The models we are using are all hosted in the Sweden Central region. You won't 
 
 For more guidance on using Python with Azure OpenAI you can check out the [OpenAI Python API library](https://aka.ms/fabric-hack24-python) on PyPi for the docs, how to set up your environment variables, and for some simple examples.
 
-You'll need to add two environment variables to run the examples: ENDPOINT*URL and API_KEY. 
+You'll need to add two environment variables to run the examples: ENDPOINT*URL and API_KEY.
 
 _The PyPi docs give a good example on how to set up a .env file to store your keys and endpoints and to use dot_env the library to access your keys and endpoints (dot_env is used in the Python examples listed in the table)._
 
