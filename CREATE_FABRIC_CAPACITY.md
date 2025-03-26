@@ -9,7 +9,8 @@ For more information about Microsoft Fabric, visit the website [Learn more abou
 This guide will walk you through the steps to set up Microsoft Fabric Capacity with an Azure trial. By following these steps, you will be able to create a Fabric Capacity in Azure, which is essential for using Fabric's data processing features. Additionally, you will need a Microsoft 365 or Office 365 trial account to access Microsoft Fabric. The guide will also provide instructions on how to avoid unexpected charges by pausing or deleting the Fabric Capacity and canceling the Azure and Office 365 trials.
 
 >**Note:** This guide may seem long and involving many steps, but this is because we are setting a Microsoft 365 tenant, and an Azure Subscription before creating the Fabric Capacity. In an ideal scenario your IT team would have already set up the Microsoft 365 tenant and Azure subscription for you and the  sign up to Microsoft Fabric would only take less than 5 minutes.
->If you already have a Fabric Capacity ypu can skip the entire sign up process and go straight to creating a new workspace in Microsoft Fabric. If you have a Microsoft 365 or Office 365 account, you can skip the first part of this guide and go directly to signing up for Microsoft Fabric and creating a Fabric Capacity in Azure.
+
+>If you already have a Fabric Capacity you can skip the entire sign up process and go straight to creating a new workspace in Microsoft Fabric. If you have a Microsoft 365 or Office 365 account, you can skip the first part of this guide and go directly to signing up for Microsoft Fabric and creating a Fabric Capacity in Azure.
 
 ## **Part 1: Sign Up for an Office 365 Trial**  
 
